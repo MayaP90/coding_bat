@@ -10,11 +10,13 @@ array_count9([1, 9, 9, 3, 9]) → 3
 
 #To do this
 def array_count9(nums):
-  an = 0
-  for i in range(0, len(nums), 1):
-  
-    if nums[i] == 9:
-      an = an + 1
-    
-  return an;
+  count=0
+  # start with zero and the item in the array
+  for num in mums:
+    # The assignment of one of the numeber's in the list equalls 9
+    # then add the following increment from count which equals zero.
+    if nums == 9:
+      count +=1
+    # simply return count
+  return count;
   
